@@ -6,7 +6,7 @@
 
 body {
     min-height: 100vh;
-    background: rgb(56, 49, 49);
+    background: rgb(58, 51, 51);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,6 +15,7 @@ h1 {
     font-size: 1.7rem;
     margin-bottom: 20px;
     margin-top: 10px;
+    text-align: center;
 }
 
 section {
@@ -37,6 +38,13 @@ section {
     padding:  10px 30px;
 
     grid-row: 20px;
+}
+
+.wrapper-line {
+    display: block;
+    height: 1px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.363);
 }
 
 .wrapper-data input {
@@ -67,12 +75,13 @@ section {
 }
 
 
-.form {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background: white;
-    min-height: 60vh; 
+div.form {
+    display: block;
     width: 650px;
+    height: 600px;
+    margin: auto;
+
+    background: white;
+    border-radius: 10px;
     
 }
